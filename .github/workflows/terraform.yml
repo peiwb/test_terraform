@@ -2,9 +2,9 @@ name: Terraform Local Demo
 
 on:
   push:
-    branches: [ main, test_terraform ]
+    branches: [ master ]
   pull_request:
-    branches: [ main, test_terraform ]
+    branches: [ master ]
 
 jobs:
   terraform:

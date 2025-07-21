@@ -10,6 +10,6 @@ terraform {
 provider "local" {}
 
 resource "local_file" "hello" {
-  content  = "Hello from Terraform! creating time：${timestamp()}"
+  content  = "Hello from Terraform! 时间：${timestamp()}"
   filename = "${path.module}/hello_from_terraform.txt"
 }
